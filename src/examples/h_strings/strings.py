@@ -20,3 +20,13 @@ def string_loop_w_while(str):
         index +=1
         if(index == 6):
             print("", index, length)
+
+def string_loop_w_for_range(str):
+
+    length = len(str)
+
+    for index in range(0, length):
+        print(str[index], index, length)
+
+        if(index == 6): #this extra code is unnecessary, it's already taken care of in "for index in range"!
+            print("", index, length)
