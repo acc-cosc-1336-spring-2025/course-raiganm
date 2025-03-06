@@ -37,4 +37,11 @@ class Test_Config(unittest.TestCase):
 
         is_in = 'Seven' in text
 
-        self.assertEqual(is_in, False) 
+        self.assertEqual(is_in, False)
+
+    def test_search_w_not_in(self):
+        text = "Four score and seven years ago"
+
+        not_in = 'Seven' not in text
+
+        self.assertEqual(not_in, True)
