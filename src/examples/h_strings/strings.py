@@ -31,3 +31,10 @@ def string_loop_w_for_range(str):
         if(index == 6): #this extra code is unnecessary, it's already taken care of in "for index in range"!
             print("", index, length)
 
+def string_loop_w_for(str):
+
+    for ch in str: #Python
+        print(ch)
+        ch = 'a' #doesnt change str, only changes the ch variable!
+
+    print(str)

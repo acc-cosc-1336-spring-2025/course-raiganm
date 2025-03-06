@@ -2,9 +2,7 @@
 import strings
 
 def main():
-    str = "Four score and seven years ago"
-    split_text = str.split() #split creates a list of strings
+    strings.string_loop_w_for("Python")
 
-    print(split_text)
 
 main()
