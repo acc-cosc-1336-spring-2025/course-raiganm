@@ -1,4 +1,4 @@
 #main program
 import lists
 
-lists.arrays_in_memory()
+lists.loop_list_w_while()
