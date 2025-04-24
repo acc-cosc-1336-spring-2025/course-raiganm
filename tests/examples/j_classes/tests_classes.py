@@ -1,10 +1,11 @@
 import unittest
  
-from src.examples.j_classes.bank_account import BankAccount # type: ignore
+from src.examples.j_classes.bank_account import BankAccount #type: ignore
  
 class Test_Config(unittest.TestCase):
  
     def test_bank_account_get_balance(self):
-        account = BankAccount()
+        account = BankAccount(500)
  
-        self.assertEqual(account.get_balance(), 0)
+        self.assertEqual(account.get_balance(), 500)
+
